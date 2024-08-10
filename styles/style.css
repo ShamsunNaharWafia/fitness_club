@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+/* shared styles */
+
+.primary-bg {
+    background: rgb(0, 0, 0);
+}
+
+.primary-color {
+    color: rgb(230, 83, 60);
+}
+
+.display-flex {
+    display: flex;
+}
+
+.banner-para {
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.primary-btn {
+    background-color: rgb(230, 83, 60);
+    color: rgb(251, 251, 251);
+    border-radius: 2rem;
+    padding: 12px 30px;
+    border-style: none;
+}
+
+/* --------------navbar------------ */
+.navbar h3 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+header>.navbar {
+    margin: auto 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul>.nav-links {
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 15px;
+}
+
+.nav-links>a {
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+
+/* banner */
+.banner-container {
+    color: white;
+    margin: auto 100px;
+    align-items: center;
+}
+
+.secondary-btn {
+    background-color: black;
+    color: rgb(251, 251, 251);
+    border-radius: 2rem;
+    padding: 12px 30px;
+    border: 1px solid white;
+}
+
+.banner #banner-title {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.banner-first {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-video {
+    background-color: rgba(109, 8, 8, 0.362);
+    color: rgb(251, 251, 251);
+    border-radius: 2rem;
+    margin: 12px 40px;
+    border: 1px solid white;
+}
