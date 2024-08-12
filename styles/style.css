@@ -30,7 +30,7 @@
 
 .banner-para {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
+    font-size: 1rem;
     padding: 8px;
 }
 
@@ -52,8 +52,7 @@
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 300;
-    margin-top: 8px;
-    margin-bottom: 48px;
+    padding: 0px 0px 50px 0px;
 }
 
 /* --------------navbar------------ */
@@ -131,7 +130,8 @@ ul>.nav-links {
 }
 
 /* change-habit */
-.change-habit {
+main {
+    max-width: 1440px;
     text-align: center;
     margin: auto 100px;
     /* border: 1px solid saddlebrown; */
@@ -145,6 +145,7 @@ ul>.nav-links {
 .change-title {
     font-size: 1rem;
     color: white;
+    padding: 0px;
 }
 
 .change-habit img {
@@ -154,5 +155,32 @@ ul>.nav-links {
 @media screen and (max-width:576px) {
     .habit-img {
         flex-direction: column;
+    }
+}
+
+
+/* runner  */
+.run-easily {
+    text-align: start;
+    align-items: center;
+    padding: 40px;
+    gap: 70px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 1rem;
+}
+
+.runner-img {
+    width: 65%;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:576px) {
+    .run-easily {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .runner-img {
+        width: 100%;
     }
 }
