@@ -49,7 +49,7 @@
 }
 
 .main-para {
-    font-size: 14px;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 300;
     padding: 0px 0px 50px 0px;
@@ -131,9 +131,7 @@ ul>.nav-links {
 
 /* change-habit */
 main {
-    max-width: 1440px;
     text-align: center;
-    margin: auto 100px;
     /* border: 1px solid saddlebrown; */
 }
 
@@ -161,6 +159,7 @@ main {
 
 /* runner  */
 .run-easily {
+    margin: auto 100px;
     text-align: start;
     align-items: center;
     padding: 40px;
@@ -170,7 +169,7 @@ main {
 }
 
 .runner-img {
-    width: 65%;
+    width: 60%;
     border-radius: 1rem;
 }
 
@@ -183,4 +182,96 @@ main {
     .runner-img {
         width: 100%;
     }
+}
+
+
+
+/* training-exercise
+
+.training-exercise {
+    text-align: start;
+}
+
+
+.first-section {
+    height: 250px;
+    display: flex;
+}
+
+.second-section {
+    height: 273.5px;
+    display: flex;
+}
+
+@media screen and (max-width:576px) {
+
+    .first-section,
+    .second-section {
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+} */
+
+/* BMI */
+.bmi {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* padding: 20px; */
+}
+
+.bmi .table-para {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.bmi .container-text {
+    background-color: black;
+}
+
+.bmi-container {
+    margin: auto 100px;
+    gap: 40px;
+    align-content: space-between;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: start;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+
+/* bmi form */
+.bmi-form {
+    text-align: start;
+}
+
+/* teams */
+.images-team {
+    margin: auto 100px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 1rem;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.images-team img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
 }
