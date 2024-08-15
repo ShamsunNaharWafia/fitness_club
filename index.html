@@ -22,20 +22,15 @@
                 </li>
             </ul>
         </nav>
-        <div class="banner-container display-flex ">
+        <div class="banner-container display-flex">
             <div class="banner">
                 <div class="banner-first display-flex">
-                    <h1 id="banner-title">Get body in
-                        <span><i id="italic">shape</i></span> & stay
-                        healthy
-                    </h1>
-
+                    <h1 id="banner-title">Get body in <span><i id="italic">shape</i></span> & stay healthy</h1>
                 </div>
                 <p class="banner-para">A huge selection of health and fitness content, healthy recipes
                     and transformation stories to help you get fit and stay fit!</p>
                 <button class="primary-btn">Join Club Now!</button>
                 <button class="secondary-btn">Download App</button>
-
             </div>
             <div class="btn-img">
                 <button class="btn-video">
@@ -146,15 +141,15 @@
                         <tbody>
                             <tr>
                                 <td>Below 18.5</td>
-                                <td>Below 18.5</td>
+                                <td>Underweight</td>
                             </tr>
                             <tr>
                                 <td>18.5 - 24.9</td>
-                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
                             </tr>
                             <tr>
                                 <td>25.0 - 29.9</td>
-                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
                             </tr>
                             <tr>
                                 <td>30.0 - and Above</td>
@@ -169,7 +164,32 @@
                     <p class="main-para">We believe fitness should be accessible to everyone, everywhere, regardless of
                         income
                         or access to a gym.</p>
-                    <form action=""></form>
+                    <form>
+                        <div class="form-height display-flex">
+                            <input type="text" name="Height" placeholder="Height/cm">
+                            <input type="text" name="Weight" id=" " placeholder="Weight/kg">
+                        </div>
+                        <div class="form-detail display-flex">
+                            <input type="text" name="Age" placeholder="Age">
+
+                            <select id="Sex" name="sex">
+                                <option value="Female">Sex</option>
+                                <option value="Female">Female</option>
+                                <option value="Male">Male</option>
+                                <option value="Transgender">Transgender</option>
+                            </select>
+
+                        </div>
+                        <div class="factor">
+                            <select id="cars" name="cars">
+                                <option value="volvo">Select an activity factor</option>
+                                <option value="saab">Worker</option>
+                                <option value="mercedes">Student</option>
+                                <option value="audi">Housewife</option>
+                            </select>
+                        </div>
+                        <button class="primary-btn ">Calculate</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -183,7 +203,8 @@
             </div>
             <div class="images-team">
                 <!-- <div class="first display-flex"> -->
-                <h5 class="overlay-text">Meet Our Team<img src="images/trainer1.png"></h5>
+                <!-- <h5 class="overlay-text">Meet Our Team</h5> -->
+                <img src="images/trainer1.png">
                 <img src="images/trainer2.png">
                 <img src="images/trainer3.png">
                 <!-- </div> -->

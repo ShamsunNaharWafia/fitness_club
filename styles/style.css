@@ -5,8 +5,8 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-        "slnt" 0;
+    /* font-variation-settings:
+        "slnt" 0; */
 }
 
 /* shared styles */
@@ -29,30 +29,33 @@
 }
 
 .banner-para {
+    margin: 0px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
-    padding: 8px;
+    padding: 30px 0px;
 }
 
 .primary-btn {
     background-color: rgb(230, 83, 60);
     color: rgb(251, 251, 251);
     border-radius: 2rem;
-    padding: 12px 30px;
+    padding: 12px 40px;
     border-style: none;
+    margin: 12px;
 }
 
 .main-title {
+    margin: 0px;
     color: white;
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .main-para {
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 300;
-    padding: 0px 0px 50px 0px;
+    padding-bottom: 50px;
 }
 
 /* --------------navbar------------ */
@@ -86,6 +89,7 @@ ul>.nav-links {
     color: white;
     margin: auto 100px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .secondary-btn {
@@ -97,6 +101,7 @@ ul>.nav-links {
 }
 
 .banner #banner-title {
+    margin: 0px;
     font-size: 4.8rem;
     font-weight: 900;
 }
@@ -217,25 +222,34 @@ main {
 
 /* BMI */
 .bmi {
+
     width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     /* padding: 20px; */
+
 }
 
 .bmi .table-para {
     color: white;
+    padding: 40px 0px;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .bmi .container-text {
     background-color: black;
 }
 
-.bmi-container {
+.bmi .bmi-container {
+    text-align: start;
     margin: auto 100px;
-    gap: 40px;
-    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    align-content: start;
+}
+
+.table {
+    padding: 30px;
 }
 
 table {
@@ -250,10 +264,29 @@ td {
 
 }
 
+form input,
+select,
+option {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 7px;
+    padding-left: 15px;
+}
 
-/* bmi form */
-.bmi-form {
-    text-align: start;
+form .factor select {
+    width: 85%;
+}
+
+
+@media screen and (max-width:576px) {
+    .bmi-container {
+        flex-direction: column;
+        align-content: center;
+    }
 }
 
 /* teams */
