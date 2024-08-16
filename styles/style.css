@@ -398,8 +398,20 @@ form .factor select {
     .images-team {
         grid-template-columns: 1fr;
     }
+
+    .mine-content {
+        flex-direction: column;
+    }
 }
 
+/* mine  */
+.mine {
+    margin: auto 100px;
+}
+
+.mine-content {
+    justify-content: space-between;
+}
 
 
 /* footer */
