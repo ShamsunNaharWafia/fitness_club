@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Club </title>
     <link rel="shortcut icon" href="https://img.icons8.com/?size=48&id=13390&format=png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -13,14 +16,19 @@
     <header>
         <nav class="navbar display-flex">
             <h3 class="primary-color"><i>Fitness</i></h3>
-            <ul>
-                <li class="nav-links">
-                    <a href="" class="nav-link">Home</a>
-                    <a href="" class="nav-link">Service</a>
-                    <a href="" class="nav-link">About</a>
-                    <a href="" class="nav-link">Contact</a>
-                </li>
-            </ul>
+            <div>
+                <ul>
+                    <li class="nav-links">
+                        <a href="" class="nav-link active">Home</a>
+                        <a href="" class="nav-link">Service</a>
+                        <a href="" class="nav-link">About</a>
+                        <a href="" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger-menu">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </div>
         </nav>
         <div class="banner-container display-flex">
             <div class="banner">
@@ -28,20 +36,29 @@
                     <h1 id="banner-title">Get body in <span><i id="italic">shape</i></span> & stay healthy</h1>
                 </div>
                 <p class="banner-para">A huge selection of health and fitness content, healthy recipes
-                    and transformation stories to help you get fit and stay fit!</p>
-                <button class="primary-btn">Join Club Now!</button>
-                <button class="secondary-btn">Download App</button>
+                    and transformation stories to help you get fit and stay fit!
+                </p>
+
+                <div class="prime display-flex">
+                    <button class="primary-btn">Join Club Now!</button>
+                    <button class="secondary-btn">Download App</button>
+                </div>
             </div>
             <div class="btn-img">
-                <button class="btn-video">
-                    <h1>500+</h1>
-                    <h3>Free Workout Videos</h3>
-                </button>
-                <img class="banner-image" src="images/Images 2.png" alt="a man is weight lifting">
-                <button class="btn-video">
-                    <h1>350+</h1>
-                    <h3>Video tutorial</h3>
-                </button>
+                <div class="featured-architect">
+                    <button id="upper-badge" class="btn-primary">
+                        <span id="experience-year">500+</span>
+                        <br>
+                        <span>Free Workout Videos</span>
+                    </button>
+                    <img class="banner-image" src="images/Images 2.png" alt="a man is weight lifting">
+                    <button id="lower-badge" class="btn-primary">
+                        <span id="experience-year">350+</span>
+                        <br>
+                        <span>Video tutorial</span>
+                    </button>
+                </div>
+
             </div>
         </div>
     </header>
@@ -204,15 +221,48 @@
             <div class="images-team display-flex">
                 <!-- <div class="first display-flex"> -->
                 <!-- <h5 class="overlay-text">Meet Our Team</h5> -->
-                <img src="images/trainer1.png">
-                <img src="images/trainer2.png">
-                <img src="images/trainer3.png">
-                <!-- </div> -->
-                <!-- <div class="second display-flex"> -->
-                <img src="images/trainer4.png">
-                <img src="images/trainer5.png">
-                <img src="images/trainer6.png">
-                <!-- </div> -->
+                <figure class="image">
+                    <img src="images/trainer1.png">
+                    <figcaption>
+                        <h6 class="traine-name">Jerome Bell</h6>
+                        <p class="traine-cap">trainer</p>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <img src="images/trainer2.png">
+                    <figcaption>
+                        <h6 class="traine-name">Cameron Willamson</h6>
+                        <p class="traine-cap">trainer</p>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <img src="images/trainer3.png">
+                    <figcaption>
+                        <h6 class="traine-name">Darrell Steward</h6>
+                        <p class="traine-cap">trainer</p>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <img src="images/trainer4.png">
+                    <figcaption>
+                        <h6 class="traine-name">Dianane Russell</h6>
+                        <p class="traine-cap">trainer</p>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <img src="images/trainer5.png">
+                    <figcaption>
+                        <h6 class="traine-name">Cody Fisher</h6>
+                        <p class="traine-cap">trainer</p>
+                    </figcaption>
+                </figure>
+                <figure class="image">
+                    <img src="images/trainer6.png">
+                    <figcaption>
+                        <h6 class="traine-name">Theresa Webb</h6>
+                        <p class="traine-cap">trainer</p>
+                    </figcaption>
+                </figure>
 
             </div>
         </section>
