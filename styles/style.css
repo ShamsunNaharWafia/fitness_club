@@ -413,6 +413,7 @@ form .factor select {
 /* mine  */
 .mine {
     margin: auto 100px;
+    padding-bottom: 50px;
 }
 
 .mine-content {
